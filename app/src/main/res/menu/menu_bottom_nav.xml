@@ -10,7 +10,7 @@
     <item
         android:id="@+id/mRecente"
         android:icon="@drawable/baseline_restore"
-        android:title="Recente"
+        android:title="Recentes"
         app:showAsAction="ifRoom" />
 
     <item

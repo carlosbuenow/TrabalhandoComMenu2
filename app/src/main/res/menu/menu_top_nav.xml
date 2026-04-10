@@ -4,11 +4,17 @@
 
 
     <item
-        android:id="@+id/mSalvar"
-        android:icon="@drawable/baseline_save"
-        android:title="Salvar"
+        android:id="@+id/mProcurar"
+        android:icon="@drawable/baseline_search"
+        android:title="Procurar"
         app:showAsAction="ifRoom"
         />
+
+    <item
+        android:id="@+id/mNovos"
+        android:icon="@drawable/baseline_newspaper"
+        android:title="Novos"
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/mExcluir"
@@ -22,9 +28,5 @@
         android:title="Alterar"
         app:showAsAction="ifRoom" />
 
-    <item
-        android:id="@+id/mNovos"
-        android:icon="@drawable/baseline_newspaper"
-        android:title="Novos"
-        app:showAsAction="ifRoom" />
+
 </menu>
