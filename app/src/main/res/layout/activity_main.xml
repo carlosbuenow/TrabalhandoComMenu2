@@ -9,7 +9,7 @@
 
 
     <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/idTopNav"
+        android:id="@+id/idToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -23,6 +23,33 @@
         android:layout_alignParentBottom="true"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/menu_bottom_nav" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/idTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idToolbar">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Novas"
+            android:icon="@drawable/baseline_electric_bike"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usadas"
+            android:icon="@drawable/baseline_directions_bike"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coleção"
+            android:icon="@drawable/baseline_pedal_bike"/>
+
+    </com.google.android.material.tabs.TabLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/idFab"
